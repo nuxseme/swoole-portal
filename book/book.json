@@ -1,0 +1,101 @@
+{
+    "title": "Swoole Portal",
+    "author": "nuxseme",
+    "description": "Swoole",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "outputfile": "SUMMARY.md",
+    "catalog": "all",
+    "ignores": ["node_modules","_book"],
+    "unchanged": [],
+    "sortedBy": "-",
+    "disableTitleFormatting": false,
+    "styles": {
+	"website": "styles/website.css"         
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "Github": {
+            "Github": "https://github.com/nuxseme/swoole-portal"
+        }
+    },
+    "plugins": [
+	"search-pro",
+	"-toggle-chapters",
+	"chapter-fold",
+	"expandable-chapters",
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "github",
+        "github-buttons",
+        "-donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+	"copy-code-button"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/nuxseme/swoole-portal"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "nuxseme",
+                "repo": "swoole-portal",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "donate": {
+            "alipay": "",
+            "title": "",
+            "button": "赞赏",
+            "alipayText": " "
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+ 	"fontsettings": {
+            "theme": "night",
+            "family": "sans" 
+        },
+        "favicon":{
+            "shortcut": "assets/favicon.ico",
+            "bookmark": "assets/favicon.ico",
+            "appleTouch": "assets/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "assets/favicon.png",
+                "180x180": "assets/favicon.png"
+            }
+        }
+    }
+}
