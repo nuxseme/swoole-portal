@@ -34,4 +34,4 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com/nuxseme/slim-portal-gitbook.git
+   - GH_REF: github.com/nuxseme/swoole-portal-gitbook.git
