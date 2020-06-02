@@ -14,12 +14,13 @@ notifications:
 
 script:
   - gitbook -v
-  - gitbook install
   - cd book
+  - gitbook install
   - gitbook build
   - book sm
 
 after_script:
+  - ll -al
   - cd ./_book
   - ls -al
   - git init
