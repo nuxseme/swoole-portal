@@ -20,7 +20,7 @@ script:
   - book sm
 
 after_script:
-  - ll -al
+  - ls -al
   - cd ./_book
   - ls -al
   - git init
